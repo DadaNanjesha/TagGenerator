@@ -5,4 +5,4 @@ from django.template.context_processors import request
 
 
 def my_app(request):
-    return render(request, 'home.html')
+    return render(request, 'index.html')

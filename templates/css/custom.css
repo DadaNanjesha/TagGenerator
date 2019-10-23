@@ -1,0 +1,16 @@
+/* custom.css */
+    body {
+ background-color: khaki;
+ color: #FFFFFF;
+}
+h1 {
+ color: black;
+ text-align: center;
+ font: italic 200% fantasy;
+}
+p {
+ /*{#background-color: ;#}*/
+ color: black;
+ text-align: left;
+ /*{#border: 3px groove #FFFF33;#}*/
+}
