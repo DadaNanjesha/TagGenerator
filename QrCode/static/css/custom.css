@@ -1,6 +1,6 @@
 /* custom.css */
     body {
- background-color: khaki;
+ background-color: antiquewhite;
  color: #FFFFFF;
 }
 h1 {
@@ -13,4 +13,7 @@ p {
  color: black;
  text-align: left;
  /*{#border: 3px groove #FFFF33;#}*/
+}
+html{
+    color: aqua;
 }
