@@ -1,19 +1,70 @@
-/* custom.css */
-    body {
- background-color: antiquewhite;
- color: #FFFFFF;
+* {
+    box-sizing: border-box;
 }
-h1 {
- color: black;
- text-align: center;
- font: italic 200% fantasy;
+
+.body {
+    font-family: "Whitney SSm A,Whitney SSm B,Verdana,Geneva,sans-serif";
+    color: #00aa7e;
 }
-p {
- /*{#background-color: ;#}*/
- color: black;
- text-align: left;
- /*{#border: 3px groove #FFFF33;#}*/
+
+.raw {
+    background-color: beige;
+    padding: 1px 285px;
+    text-align: justify;
 }
-html{
-    color: aqua;
+
+.rawd {
+    background-color: slategray;
+    padding: 10px 500px;
+    text-align: justify;
+    margin-block-start: inherit;
+}
+
+.menu {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.menu a {
+    background-color: #e5e5e5;
+    padding: 8px;
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+    color: black;
+}
+
+.main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+}
+
+.right {
+    background-color: #e5e5e5;
+    float: left;
+    width: 20%;
+    padding: 15px;
+    margin-top: 7px;
+    color: black;
+    text-align: center;
+}
+
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+        width: 100%;
+    }
+}
+
+.h2 {
+    display: block;
+    font-size: 1em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: #6e6e6e;
 }
