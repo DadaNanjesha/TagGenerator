@@ -57,7 +57,6 @@
         width: 100%;
     }
 }
-
 .h2 {
     display: block;
     font-size: 1em;
@@ -67,4 +66,11 @@
     margin-inline-end: 0px;
     font-weight: bold;
     color: #6e6e6e;
+}
+.inpu{
+   text-align: center;
+    width: 30px;
+    padding: 5px 1.25px;
+    border-color: red;
+
 }
