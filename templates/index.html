@@ -40,13 +40,13 @@
         <div class="h2">ADD NUMBERS TO FUN</div>
         <div>
             <form id="frm" runat="server" OnLoad="document.myform.mytextfield.focus();">
-                <input type="text" class="inpu" id="first" size="4" onkeyup="movetoNext(this, 'second')"
+                <input type="text" class="inpu" id="first" size="1" onkeyup="movetoNext(this, 'second')"
                        onkeypress="return blockSpecialChar(event)" maxlength="1"/>
-                <input type="text" class="inpu" id="second" size="4" onkeyup="movetoNext(this, 'third')"
+                <input type="text" class="inpu" id="second" size="2" onkeyup="movetoNext(this, 'third')"
                        onkeypress="return blockSpecialChar(event)" maxlength="1"/>
-                <input type="text" class="inpu" id="third" size="4" onkeyup="movetoNext(this, 'fourth')"
+                <input type="text" class="inpu" id="third" size="3" onkeyup="movetoNext(this, 'fourth')"
                        onkeypress="return blockSpecialChar(event)" maxlength="1"/>
-                <input type="text" class="inpu" id="fourth" size="4" onkeyup="movetoNext(this, 'third')"
+                <input type="text" class="inpu" id="fourth" size="4" onkeyup="return"
                        onkeypress="return blockSpecialChar(event)" maxlength="1"/>
             </form>
         </div>
