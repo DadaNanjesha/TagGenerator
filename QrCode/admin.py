@@ -12,8 +12,7 @@ from django.utils.translation import gettext_lazy as _
 class GtinAdmin(admin.ModelAdmin):
     AdminSite.app_index_title = "GTIN Associations"
     AdminSite.site_header = "QR-CODE PROJECT"
-    list_display = ('gtin_number', 'product_name')
-    list_display_links = None
+    list_display = ('gtin_number', 'product_name', 'create_date', 'update_date')
     list_filter = ('gtin_number', 'product_name')
     # class Media:
 

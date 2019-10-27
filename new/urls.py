@@ -20,4 +20,5 @@ from QrCode import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.my_app, name='app'),
+    path('hello/',views.hello, name='hello'),
 ]
