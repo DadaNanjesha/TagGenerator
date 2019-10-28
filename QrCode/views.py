@@ -8,6 +8,6 @@ def my_app(request):
     return render(request, 'home.html')
 
 
-def hello(request, number):
-    text = "<h1>welcome to my app number %s!</h1>" % number
+def view_article(request, article_id):
+    text = "Displaying article Number : %s" % article_id
     return HttpResponse(text)

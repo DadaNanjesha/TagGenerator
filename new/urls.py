@@ -15,10 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.conf.urls import url
 from QrCode import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.my_app, name='app'),
-    path('hello/',views.hello, name='hello'),
+    url(r'^article/(\d+)/', views.view_article, name='article'),
 ]
