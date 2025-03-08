@@ -1,7 +1,9 @@
 # Django QRCode Generator
 
 [![PyPI version](https://img.shields.io/pypi/v/django-qrcode.svg?style=flat-square)](https://pypi.org/project/django-qrcode/)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/DadaNanjesha/TagGenerator/python-publish.yml?branch=main&style=flat-square)](https://github.com/DadaNanjesha/TagGenerator/actions)
+
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/DadaNanjesha/TagGenerator/python-publish.yml)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 
 Welcome to **Django QRCode Generator** : A sleek, reusable Django app that creates stunning, customizable QR codes on the fly. With advanced styling options like rounded modules and radial gradients, you can generate QR codes that are not only functional but also visually appealing.
