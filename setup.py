@@ -7,7 +7,7 @@ with open(path.join(this_directory, "README.md"), encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="django-qrcode",
+    name="TagGenerator",
     version="1.0.0",
     author="Your Name",
     author_email="your.email@example.com",
