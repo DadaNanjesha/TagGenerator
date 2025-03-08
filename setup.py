@@ -18,8 +18,9 @@ setuptools.setup(
     packages=["QrCode"],  # Explicitly list your reusable app package
     include_package_data=True,  # Include files specified in MANIFEST.in
     install_requires=[
-        "Django>=5.1",   
-        "qrcode",        # If using an external QR code generation library
+        "Django>=4.0",   
+        "qrcode",
+        "Pillow",  # If using an external QR code generation library
     ],
     classifiers=[
         "Framework :: Django",
