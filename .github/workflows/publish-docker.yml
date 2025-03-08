@@ -36,4 +36,4 @@ jobs:
         with:
           context: .
           push: true
-          tags:  ghcr.io/${{ github.repository_owner }}/${{ github.event.repository.name | toLower }}:latest # Lowercase
+          tags:  ghcr.io/${{ github.repository_owner }}/${{ github.event.repository.name|toLower }}:latest # Lowercase
