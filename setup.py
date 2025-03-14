@@ -8,7 +8,7 @@ with open(path.join(this_directory, "README.md"), encoding="utf-8") as fh:
 
 setuptools.setup(
     name="TagGenerator",
-    version="1.0.1",
+    version="1.0.2",
     author="Dada Nanjesha",
     description="A reusable Django app for QR Code generation",
     long_description=long_description,
